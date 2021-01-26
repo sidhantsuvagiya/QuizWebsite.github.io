@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="center_div">
+            <div class="quiz_div">
+                <h3 class="ques"></h3>
+                <ul>
+                    <li><input class="options" type="radio" name="option" id="a">
+                        <label for="a" id="op1"></label>
+                    </li>
+
+                    <li> <input class="options" type="radio" name="option" id="b">
+                        <label for="b" id="op2"></label>
+                    </li>
+
+                    <li> <input class="options" type="radio" name="option" id="c">
+                        <label for="c" id="op3"></label>
+                    </li>
+
+                    <li> <input class="options" type="radio" name="option" id="d">
+                        <label for="d" id="op4"></label>
+                    </li>
+
+                </ul>
+
+                <button class="submit">Submit </button>
+            </div>
+
+            <div class="score_div">
+                <h2> </h2>
+                <button class="play_again" onclick="location.reload()">Play Again !</button>
+            </div>
+            <footer> Made <span> ❤️ </span> With Thapa Technical</footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
